@@ -3,7 +3,6 @@
   "buildCommand": "",
   "installCommand": "echo 'No external dependencies'",
   "rewrites": [
-    { "source": "/", "destination": "/api/triage" },
     { "source": "/api", "destination": "/api/triage" }
   ]
 }
