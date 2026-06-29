@@ -1,12 +1,3 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "api/triage.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    { "src": "/api/triage", "dest": "/api/triage.js" }
-  ]
+  "framework": null
 }
