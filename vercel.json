@@ -1,10 +1,9 @@
 {
-  "buildCommand": null,
-  "framework": null,
-  "installCommand": "npm install",
-  "functions": {
-    "api/triage.js": {
-      "runtime": "nodejs20.x"
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/triage.js",
+      "use": "@vercel/node"
     }
-  }
+  ]
 }
