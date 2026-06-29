@@ -1,6 +1,7 @@
 {
   "framework": null,
   "buildCommand": "",
+  "outputDirectory": "public",
   "installCommand": "echo 'No external dependencies'",
   "rewrites": [
     { "source": "/api", "destination": "/api/triage" }
