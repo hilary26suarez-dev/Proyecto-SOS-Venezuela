@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOS Venezuela — API de Protocolos de Emergencia</title>
+  <style>
+    body { font-family: monospace; background: #0a0a0a; color: #f0f0f0; max-width: 720px; margin: 40px auto; padding: 0 20px; }
+    h1 { color: #cc0000; }
+    h2 { color: #ff4444; margin-top: 2em; }
+    code { background: #1a1a1a; padding: 2px 6px; border-radius: 4px; color: #ffcc00; }
+    pre { background: #1a1a1a; padding: 16px; border-radius: 8px; overflow-x: auto; }
+    a { color: #4da6ff; }
+    .badge { display: inline-block; background: #cc0000; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.85em; }
+  </style>
+</head>
+<body>
+  <h1>🆘 SOS Venezuela</h1>
+  <p><span class="badge">API</span> Protocolos de emergencia · Sismo La Guaira 2026</p>
+  <p>43 protocolos · 12 categorías · Basado en Cruz Roja Internacional / PHTLS / ATLS</p>
+
+  <h2>Endpoint</h2>
+  <pre>GET /api/triage?msg=&lt;mensaje&gt;</pre>
+
+  <h2>Ejemplos</h2>
+  <pre><a href="/api/triage?msg=ping">/api/triage?msg=ping</a>       — estado del sistema
+<a href="/api/triage?msg=menu">/api/triage?msg=menu</a>       — menú de 12 categorías
+<a href="/api/triage?msg=1">/api/triage?msg=1</a>          — Hemorragia / Sangrado
+<a href="/api/triage?msg=1.1">/api/triage?msg=1.1</a>        — Hemorragia Severa
+<a href="/api/triage?msg=sangre">/api/triage?msg=sangre</a>     — búsqueda por palabra clave</pre>
+
+  <h2>Categorías</h2>
+  <pre>1.  🩸 Hemorragia / Sangrado       (3 protocolos)
+2.  🫁 Asfixia / Atragantamiento    (4 protocolos)
+3.  🦴 Trauma Físico                (4 protocolos)
+4.  🏚️ Aplastamiento / Escombros    (3 protocolos)
+5.  🆘 Persona Atrapada             (3 protocolos)
+6.  🧤 Bioseguridad del Voluntario  (3 protocolos)
+7.  👁️ Vigilar al Paciente          (4 protocolos)
+8.  💓 RCP — Paro Cardíaco          (3 protocolos)
+9.  ⚡ Emergencias Frecuentes       (5 protocolos)
+10. 🤱 Embarazo en Emergencia       (3 protocolos)
+11. 🐾 Mascotas Heridas             (4 protocolos)
+12. 🛠️ Sin Equipo — Improvisa       (4 protocolos)</pre>
+
+  <p style="color:#555; font-size:0.85em; margin-top:3em;">
+    ⚠️ Esta guía no reemplaza atención médica profesional. Ante emergencia grave: llama al 911.
+  </p>
+</body>
+</html>
