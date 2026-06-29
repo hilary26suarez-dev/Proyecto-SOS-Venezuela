@@ -9,7 +9,7 @@
 //   GET /api/triage?protocol=hemo_severa
 //   Response: { "text": "...", "protocol": {...} }
 
-import { PROTOCOLS, EMERGENCY_CONTACTS } from '../src/clinical_logic/protocols.js';
+import { PROTOCOLS, EMERGENCY_CONTACTS } from './protocols.js';
 
 // ── Motor de triaje inline (sin deps externos) ────────────────────────────────
 const CATEGORIES = Object.values(PROTOCOLS.categories);
