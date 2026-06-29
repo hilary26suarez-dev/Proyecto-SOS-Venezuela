@@ -1,4 +1,4 @@
 {
   "framework": null,
-  "installCommand": "echo 'no dependencies'"
+  "installCommand": "npm install --legacy-peer-deps"
 }
