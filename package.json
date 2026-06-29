@@ -31,5 +31,6 @@
     "android": "expo start --android",
     "ios": "expo start --ios"
   },
-  "private": true
+  "private": true,
+  "type": "module"
 }
