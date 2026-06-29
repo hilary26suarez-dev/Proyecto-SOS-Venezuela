@@ -1,4 +1,5 @@
 {
   "framework": null,
-  "installCommand": "npm install --legacy-peer-deps --ignore-scripts"
+  "buildCommand": "",
+  "installCommand": "echo 'No external dependencies'"
 }

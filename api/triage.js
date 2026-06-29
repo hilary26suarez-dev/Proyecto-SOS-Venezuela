@@ -1,4 +1,4 @@
-import { PROTOCOLS } from './protocols.js';
+import { PROTOCOLS } from '../lib/protocols.js';
 
 const CATS = PROTOCOLS.categories;
 const CAT_KEYS = Object.keys(CATS);
