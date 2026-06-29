@@ -1,0 +1,10 @@
+{
+  "buildCommand": null,
+  "framework": null,
+  "installCommand": "npm install",
+  "functions": {
+    "api/triage.js": {
+      "runtime": "nodejs20.x"
+    }
+  }
+}
