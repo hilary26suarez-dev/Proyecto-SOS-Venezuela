@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Familia Suárez Fonseca",
+    "slug": "familia-suarez",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Necesitamos acceso a tus fotos para fotografiar tu casa.",
+          "cameraPermission": "Necesitamos la cámara para fotografiar los cuartos de tu casa."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Permite guardar fotos de los cuartos.",
+          "savePhotosPermission": "Permite guardar fotos.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ],
+      "expo-asset",
+      "expo-font"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
